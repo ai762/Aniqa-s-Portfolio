@@ -26,7 +26,7 @@ const Contact = () => {
     
     return(
         <React.Fragment>
-            <div className = "contact-div">
+            <div className = "contact-div" id = "contact">
                 <div className = "inner-contact-div">
                 <div className = "inner-services-div">
             <h1 className = "contact-h1">GET IN TOUCH</h1>

@@ -1,10 +1,12 @@
 import React from "react";
+import { Link } from "react-scroll";
+
 
 const contact = "./Contact.jsx";
 const Pricing = () => {
 return(
 <React.Fragment>
-<div className = "outer-card-div">
+<div className = "outer-card-div" id = "pricing">
     <div className = "inner-services-div">
       <h1 className = "">PRICING</h1>
       <hr /> 
@@ -22,7 +24,7 @@ return(
                 <h6 className="card-subtitle mb-2 text-muted">15 DEMOS INCLUDED</h6>
                 <h6 className="card-title">NEWSLETTER</h6>
                 <p className="card-text" id = "noWorkingContact">WORKING CONTACT FORM</p>
-                <a href="contact" className="card-link">INTERESTED</a>
+                <Link className="card-link" to="contact" smooth = {true} duration = {1000}>INTERESTED</Link>
               </div>
         </div>
     </div>
@@ -37,7 +39,7 @@ return(
                 <h6 className="card-subtitle mb-2 text-muted">15 DEMOS INCLUDED</h6>
                 <h6 className="card-title">NEWSLETTER</h6>
                 <p className="card-text">WORKING CONTACT FROM & ANIMATED WEBSITES</p>
-                <a href="contact" className="card-link">INTERESTED</a>
+                <Link className="card-link" to="contact" smooth = {true} duration = {1000}>INTERESTED</Link>
               </div>
            </div>
     </div>
@@ -52,7 +54,7 @@ return(
               <h6 className="card-subtitle mb-2 text-muted">15 DEMOS INCLUDED</h6>
               <h6 className="card-title">NEWSLETTER</h6>
               <p className="card-text"> WORKING CONTACT FROM</p>
-              <a href="contact" className="card-link">INTERESTED</a>
+              <Link className="card-link" to="contact" smooth = {true} duration = {1000}>INTERESTED</Link>
             </div>
          </div>
     </div>

@@ -20,7 +20,7 @@ import Contact from "./Contact";
 const About = () => {
 return(
 <React.Fragment>
-   <div className = "about-me-grid">
+   <div className = "about-me-grid" id = "about">
         <div className = "inner-services-div">
             <h1>About Me</h1>
             <hr /> 

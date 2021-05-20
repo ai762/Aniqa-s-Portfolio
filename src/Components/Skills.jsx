@@ -4,7 +4,7 @@ import { Grid } from "@material-ui/core";
 const Skills = () => {
     return(
         <React.Fragment>
-          <div className = "skills-div">
+          <div className = "skills-div" id = "skills">
             <div className = "inner-services-div">
               <h1 id = "aboutMySKills">About My Skills</h1>
               <hr /> 

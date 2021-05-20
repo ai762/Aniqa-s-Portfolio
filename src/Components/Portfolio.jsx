@@ -8,9 +8,14 @@ import banner3 from '../grilltochill/banner3.jpg';
 import flyers from '../grilltochill/flyers.jpeg';
 import logo from '../grilltochill/logo.jpg';
 import { Grid } from "@material-ui/core";
+// import {Link } from "react-router-dom";
+import {HashLink as Link} from "react-router-hash-link";
+
+
 const Portfolio = () => {
     return(
         <React.Fragment>
+            <div id = "portfolio">
                <div className = "upper-portfolio-div">
             <h1>PORTFOLIO</h1>
             <h6>Presenting here my work during my learning phase.</h6>
@@ -25,7 +30,7 @@ const Portfolio = () => {
                     <h3>SISS</h3>
                     <h4>React JS Project</h4>
                     <p>This is basic level project for a digital services which is basically designed by using <strong>ReactJS</strong></p>
-                     <a href = "portfoliopresentation" className = "portfolio-btn">Explore Me</a>
+                    <Link smooth to = "#portfolio" className = "portfolio-btn">Explore Me</Link>
                     </div>
           </Grid>
           <Grid item lg = {3} md = {4} sm = {12} xm = {12} className = "inner-grid-spacing">
@@ -36,7 +41,7 @@ const Portfolio = () => {
                     <h3>Grill To Chilli</h3>
                     <h4>React JS Project</h4>
                     <p>This is small level project for a resturant which is basically designed by using <strong>ReactJS</strong></p>
-                     <a href = "portfoliopresentation" className = "portfolio-btn">Explore Me</a>
+                    <Link smooth to = "#portfolio" className = "portfolio-btn">Explore Me</Link>
                     </div>
           </Grid>
           <Grid item lg = {3} md = {4} sm = {12} xm = {12} className = "inner-grid-spacing">
@@ -105,7 +110,8 @@ const Portfolio = () => {
                      <a href = "https://www.behance.net/aniqaayub" className = "portfolio-btn">Explore Me</a>
                     </div>
               </Grid>
-              </Grid>  
+              </Grid>
+              </div>  
         </React.Fragment>
     );
 }

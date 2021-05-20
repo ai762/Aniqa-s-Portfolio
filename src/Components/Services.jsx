@@ -4,7 +4,8 @@ import { Grid } from "@material-ui/core";
 
 const Services = () => {
     return(
-        <React.Fragment>
+    <React.Fragment>
+    <div id = "services">
         <div className = "inner-services-div">
             <h1 className = "">My Services</h1>
             <hr /> 
@@ -45,7 +46,8 @@ const Services = () => {
                 <p>I will also publish your services on all possible social media platform and providing knowledge about your services to your clients. And will also using effective tectics to grab them towards your products.</p>
                 </div>
            </Grid>
-           </Grid> 
+           </Grid>
+           </div> 
         </React.Fragment>
     );
 }

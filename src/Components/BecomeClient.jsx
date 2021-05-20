@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const contact = "./Contact.jsx";
 const BecomeClient = () => {
@@ -17,7 +18,7 @@ const BecomeClient = () => {
                 <li>If you dislike my work. I will definitely refund your amount.</li>
                 <li>My work is my passion and i always do my work by my heart and i also try my level best.</li>
             </ul>
-            <a href = "contact" id = "becomeClientBtn">Become Client</a>
+            <Link id = "becomeClientBtn" to="contact" smooth = {true} duration = {1000}>Become Client</Link>
             <h5>trainerhtml0@gmail.com</h5>
             <h5>+92 317 5637628</h5>
         </div>

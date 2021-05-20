@@ -11,7 +11,6 @@ import Contact from "./Components/Contact";
 import Bottom from "./Components/Bottom";
 import Skills from "./Components/Skills";
 import Pricing from "./Components/Pricing";
-import PortfolioComponent from "./Components/PortfolioComponent";
 import BecomeClient from "./Components/BecomeClient";
 
 // import Particles from "react-particles-js";
@@ -25,7 +24,7 @@ function App() {
         <Route exact path = "/about" component = {About}/>
         <Route exact path = "/skills" component = {Skills}/>
         <Route exact path = "/services" component = {Services}/>
-        <Route exact path = "/portfolio" component = {PortfolioComponent}/>
+        <Route exact path = "/portfolio" component = {Portfolio}/>
         <Route exact path = "/pricing" component = {Pricing}/>
         <Route exact path = "/contact" component = {Contact}/>
         <Redirect to = "/" />
