@@ -28,7 +28,7 @@ return(
 <div className="container">
   <div className="row">
     <div className="col-sm">
-    <p>Hi there! this is Aniqa a UI/UX Designer and Software Developer. I am also a Web Application Penetration Tester / infrastructure pentester. I can design / develop your website with attractive and meaningful contents. Because i am also a content writer as well. I can build your website too attractive, responsive and highly secure as well.</p>
+    <p>Hi there! this is Aniqa an UI/UX Designer and Software Developer. I am also a Web Application Penetration Tester / infrastructure pentester. I can design / develop your website with attractive and meaningful contents. Because i am also a content writer as well. I can build your website too attractive, responsive and highly secure as well.</p>
                    <p>I can be your next <strong>Web Designer / Developer, Pentester and Content Writer</strong> in future.</p>
                    <p><strong>Email:</strong>{" "}aniqaayub6@gmail.com</p>
                    <p><strong>Phone:</strong>{" "}+92 317 5637628</p>

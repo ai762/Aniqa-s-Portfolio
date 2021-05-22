@@ -38,7 +38,7 @@ return(
                 <h6 className="card-subtitle mb-2 text-muted">FREE SUPPORT</h6>
                 <h6 className="card-subtitle mb-2 text-muted">15 DEMOS INCLUDED</h6>
                 <h6 className="card-title">NEWSLETTER</h6>
-                <p className="card-text">WORKING CONTACT FROM & ANIMATED WEBSITES</p>
+                <p className="card-text">WORKING CONTACT FORM & ANIMATED WEBSITES</p>
                 <Link className="card-link" to="contact" smooth = {true} duration = {1000}>INTERESTED</Link>
               </div>
            </div>
@@ -53,7 +53,7 @@ return(
               <h6 className="card-subtitle mb-2 text-muted">FREE SUPPORT</h6>
               <h6 className="card-subtitle mb-2 text-muted">15 DEMOS INCLUDED</h6>
               <h6 className="card-title">NEWSLETTER</h6>
-              <p className="card-text"> WORKING CONTACT FROM</p>
+              <p className="card-text"> WORKING CONTACT FORM</p>
               <Link className="card-link" to="contact" smooth = {true} duration = {1000}>INTERESTED</Link>
             </div>
          </div>
