@@ -16,7 +16,7 @@ const Home = () => {
             <div id = "home">
             <div className = "header-wraper">
                 <div className = "main-info">
-                    <h1>Web Developer And Web Designer</h1>
+                    <h1>Web Developer <span style = {{color:"white"}}>And Web Designer</span></h1>
                     <Typed className = "typed-text"
                     strings = {["Web Designer" , "Web Developer" , "Web Application Pentester" , "Graphics Designer" , "Virtual Assistant" , "Frontend Development Trainer" , "Adds Social Media Marketing" , "Content Writer"]}
                     typeSpeed = {40}

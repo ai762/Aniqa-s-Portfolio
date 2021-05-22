@@ -8,7 +8,7 @@ html{
 }
 /****************************** NAVIGATION BAR **********************/
 .navbar{
-  z-index: 5;
+  z-index: 20;
   height: 10rem;
   width: 100vw;
 }
@@ -18,7 +18,7 @@ html{
   
 }
 .navbar-brand{
-  color:#DC381B !important;
+  color:#1da099 !important;
   font-size: 4rem !important;
 }
 
@@ -27,14 +27,14 @@ html{
   height:7rem;
 }
 #toggler:hover{
-  color: #DC381B;
+  color: #1da099;
 }
 .navbar-toggler{
   width:8rem;
   height:7rem;
 }
 .navbar-toggler:hover{
-  border: .1rem solid #DC381B !important;
+  border: .1rem solid #1da099 !important;
 }
 .nav-link{
   color: white  !important;
@@ -48,16 +48,14 @@ html{
   width:100vw;
 }
 .nav-link:hover{
-  border-bottom: .2rem solid #DC381B;
-  border-top: .2rem solid #DC381B;
-  color: #DC381B !important;
-  border-radius: 1.5rem;
+  border-bottom: .2rem solid #1da099;
+  color: #1da099 !important;
+  border-radius: .2rem;
 }
 .nav-link:focus{
-  border-bottom: .2rem solid #DC381B;
-  border-top: .2rem solid #DC381B;
-  color: #DC381B !important;
-  border-radius: 1.5rem;
+  border-bottom: .2rem solid #1da099;
+  color: #1da099 !important;
+  border-radius: .2rem;
 }
 .navbar{
   background-color: #212529 !important;
@@ -70,7 +68,7 @@ html{
 
 .header-wraper{
   position: relative;
-  background: url(/src/images/bg3.jpeg) no-repeat;
+  background: url(https://www.valuecoders.com/blog/wp-content/uploads/2018/10/how-python-is-best-fit-for-artificial-intelligence-in-web-development-1.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -90,9 +88,10 @@ html{
   right: 0rem;
 }
 .main-info h1{
-  color: #DC381B;
+  color: #1da099;
   text-transform: uppercase;
   font-size: 5rem;
+  font-weight: bolder;
 }
 .typed-text{
   color: white;
@@ -101,19 +100,19 @@ html{
   font-size:4rem;
 }
 .contact-btn{
-  border: .1rem solid #DC381B;
+  border: .1rem solid #1da099;
   height: 5rem;
   width: 17rem;
   text-decoration: none;
   line-height: 5rem;
-  color: #DC381B;
+  color: white;
   text-transform: uppercase;
   font-size: 2rem;
   margin: 3.2rem;
   z-index: 3;
 }
 .contact-btn:hover{
-  background-color: #DC381B;
+  background-color: #1da099;
   color: white;
   border: .1rem white solid;
 }
@@ -163,8 +162,8 @@ html{
   height:2.5rem;
 }
 .about-me-grid hr{
-  border: .2rem solid #DC381B;
-  background-color: #DC381B;
+  border: .2rem solid #1da099;
+  background-color: #1da099;
   width: 10rem;
   margin: 0rem auto;
   opacity: 1.0;
@@ -219,8 +218,8 @@ html{
   padding-top: 8rem;
 }
 .inner-services-div hr{
-  border: .2rem solid #DC381B;
-  background-color: #DC381B;
+  border: .2rem solid #1da099;
+  background-color: #1da099;
   width: 10rem;
   margin: 0rem auto;
   opacity: 1.0;
@@ -244,9 +243,9 @@ html{
 #inputField{
   width: 40rem;
   height: 4rem;
-  color: #DC381B;
+  color: #1da099;
   padding: 1rem;
-  border: #DC381B 1px solid;
+  border: #1da099 1px solid;
   opacity: 0.5;
   background: black;
   font-size: 1.5rem;
@@ -255,10 +254,10 @@ html{
 #textarea{
   width: 40rem;
   height: 10rem;
-  color: #DC381B;
+  color: #1da099;
   padding: 1rem;
   z-index: 3;
-  border: #DC381B 1px solid;
+  border: #1da099 1px solid;
   opacity: 0.5;
   background: black;
   font-size: 1.5rem;
@@ -267,8 +266,8 @@ html{
 #submitBtn{
   width: 40rem;
   height: 4rem;
-  border: .1rem solid #DC381B;
-  color: #DC381B;
+  border: .1rem solid #1da099;
+  color: #1da099;
   background-color: #212529;
   margin-top: 1rem;
   font-size: 2.5rem;
@@ -282,7 +281,7 @@ form{
 #submitBtn:hover{
   border: .1rem solid white;
   color: white;
- background-color: #DC381B;
+ background-color: #1da099;
 }
 .contact-h1{
   color: white;
@@ -312,7 +311,7 @@ form{
   margin-top: 1.5rem;
 }
 #icon:hover{
-  color: #DC381B;
+  color: #1da099;
 }
 
 
@@ -375,7 +374,7 @@ form{
 }
 .card h1{
   font-size: 10rem;
-  color: #DC381B;
+  color: #1da099;
   margin-top:2rem;
 }
 #noWorkingContact{
@@ -397,7 +396,7 @@ form{
 }
 .card a:hover{
   border: 1rem solid white;
-  background: #DC381B;
+  background: #1da099;
   color:white;
 }
 .outer-card-div{
@@ -408,11 +407,12 @@ form{
 
 
 /****************************** PORTFOLIO PAGE **********************/
+
 .upper-portfolio-div{
   background-color: #212529;
  }
 .upper-portfolio-div h1{
-  color: #DC381B;
+  color: #1da099;
   text-align: center;
   padding-top: 10rem;
   padding-bottom: 1rem;
@@ -428,16 +428,47 @@ form{
 .portfolio-div{
   overflow: hidden;
   height: 35rem;
+  position: relative;
+}
+.img-div{
+  overflow: hidden;
+  height: 35rem;
+  position: relative;
+  transition: transform 2s;
+}
+.img-div:hover{
+  transform: scale(1.5);
+}
+.portfolio-details-div{
+  height: 34rem;
+  background-color: #1da099;
+  position: absolute;
+    top: .5rem;
+    left: .5rem;
+    bottom: .5rem;
+    right: .5rem;
+    color: white;
+    padding: 1rem;
+    transform: scaleY(0);
+    transition: transform 1s;
+    text-align: center;
+}
+.portfolio-div:hover .portfolio-details-div{
+  transform: scaleY(1);
+  overflow: hidden;
+}
+#portfolio-icons{
+  width: 10rem;
+  height: 10rem;
+  margin-top: 3rem;
 }
 .portfolio-div img{
    width: 100%;
    height: 100%;
- }
- .portfolio-div img:hover{
-  opacity: 0.5;
+   overflow: hidden;
  }
 #back-icon{
-  color: #DC381B;
+  color: #1da099;
   width: 5rem;
   height: 5rem;
   opacity: default;
@@ -450,79 +481,52 @@ form{
   padding: 1rem;
   z-index:12;
 }
-.portfolio-details-div{
+/* .portfolio-details-div{
   height:15rem;
   background: #fff;
   transition: .6s ease-out;
   box-shadow: 0 1rem 1rem rgba(0,0,0,0.5);
   text-align:center;
   padding:1rem;
-}
+} */
 .portfolio-details-div h4{
   color: #212529;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 .portfolio-details-div h3{
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 .portfolio-details-div p{
   font-size: 1.2rem;
-  color:gray;
+  color:#212529;
+  margin-bottom: 2rem;
 }
 .portfolio-btn{
-  border-color: #DC381B;
+  border-color: white;
   border-width: .2rem;
   border-style: solid;
   height:4rem;
-  width:17rem;
-  color:#DC381B;
+  width:20rem;
+  color:white;
   font-size: 1.5rem;
   text-decoration: none;
-  padding: .5rem;
+  padding: .6rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 .portfolio-btn:hover{
-  background-color: #DC381B;
-  color: white;
+  background-color: white;
+  color: #1da099;
 }
-.portfolio-details-div:hover + .hide{
-  display:inline;
-}
-.grilltochilli-ppt-div{
-  text-align: center;
-  font-size: 3rem;
-  text-transform: uppercase;
-  margin-top: 15rem;
-  margin-bottom: 2rem;
-}
-.grilltochilli-ppt-div hr{
-  border: .2rem solid #DC381B;
-  background-color: #DC381B;
-  width: 10rem;
-  margin: 1rem auto;
-  opacity: 1.0;
-  border-radius: 2rem;
-}
-.siss-ppt-div{
-  text-align: center;
-  font-size: 3rem;
-  text-transform: uppercase;
-  margin-top: 5rem;
-  margin-bottom: 2rem;
-}
-.siss-ppt-div hr{
-  border: .2rem solid #DC381B;
-  background-color: #DC381B;
-  width: 10rem;
-  margin: 1rem auto;
-  opacity: 1.0;
-  border-radius: 2rem;
-}
+
+
+  
 
 
 /****************************** PROMISES PAGE **********************/
 .promises-div{
-  background-image: url(https://i.pinimg.com/564x/c9/cf/a2/c9cfa24ed28b3b9a32003a0a1237d244.jpg);
+  background-image: url(https://www.unifysquare.com/wp-content/uploads/2019/05/geometric-shape.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 5rem;
@@ -530,18 +534,18 @@ form{
   text-align: center;
 }
 .promises-div h1{
-  color: black;
+  color: white;
   font-weight: bolder;
   font-size: 3rem;
 }
 .promises-div h2{
-  color: #DC381B;
+  color: #1da099;
   font-weight: bolder;
-  font-size: 3rem;
+  font-size:5rem;
   text-transform: uppercase;
 }
 .promises-div ul{
-  color: black;
+  color: snow;
   font-size: 1.5rem;
   list-style: none;
   margin-top: 3rem;
@@ -554,14 +558,14 @@ form{
   margin-top: 1rem;
 }
 .promises-div h5{
-  font-weight: bold;
+  color: white;
+  font-size: 1.5rem;
 }
 #becomeClientBtn{
   width: 40rem;
   height: 4rem;
-  border: .1rem solid #DC381B;
-  color: #DC381B;
-  background-color: #212529;
+  border: .1rem solid #1da099;
+  color: #1da099;
   margin-top: 1rem;
   display: inline-block;
   margin-bottom: 3rem;
@@ -571,9 +575,9 @@ form{
   line-height: 4rem;
 }
 #becomeClientBtn:hover{
-  background-color: white;
-  color:#212529;
-  border: 1px solid #212529;
+  background-color: #1da099;
+  color:white;
+  border: 1px solid white;
 }
 
 
@@ -589,39 +593,23 @@ form{
   html{
     font-size: 55%;
   }
-  .portfolio-div{
- 
-    height: 50rem;
-  }
   .navbar-collapse
     {
         background-color:#212529;
-    }
-    
-  
+    }  
 }
 @media (max-width:800px){
   html{
     font-size: 50%;
   } 
-  .portfolio-div{
- 
-    height: 50rem;
-  }
   .navbar-collapse
     {
         background-color:#212529;
-    }
-    
+    }  
 }
 @media (max-width:600px){
   html{
     font-size: 40%;
-  }
-
-  .portfolio-div{
- 
-    height: 50rem;
   }
   .navbar-collapse
     {
@@ -633,9 +621,7 @@ form{
   html{
   font-size: 30%;
 }
-.portfolio-div{
-  height: 50rem;
-}
+
 .navbar-collapse
 {
   background-color:#212529;

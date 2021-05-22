@@ -23,7 +23,7 @@ ReactDOM.render(
               type:"square",
               stroke: {
                 width:6,
-                color:"#DC381B"
+                color:"#1da099"
               }
               
 
