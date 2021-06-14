@@ -4,11 +4,15 @@ import './index.css';
 import App from './App';
 import {BrowserRouter} from "react-router-dom";
 import Particles from "react-particles-js";
-
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 
 ReactDOM.render(
  <BrowserRouter>
+ <MessengerCustomerChat
+    pageId="113178580437674"
+    appId="1192414871206322"
+  />,
  <Particles 
         params = {{
           particles:{
